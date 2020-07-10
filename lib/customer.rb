@@ -33,7 +33,7 @@ class Customer
     tip = total * 0.2
     Meal.new(waiter, self, total, tip)
   end
- 
+
   def self.oldest_customer
     oldest_age = 0
     oldest_customer = nil
